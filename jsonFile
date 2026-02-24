@@ -3,7 +3,7 @@
     "message": "Success",
     "data": [
         { "contentID": "x1", "position": 1 },
-        { "contentID": "x2", "position": 2, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&correlator=", "adType": "PRE" },
+        { "contentID": "x2", "position": 2, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/23294981528/test_Video_Player_Pre_Rolls_Skip_16_Feb&description_url=https%3A%2F%2Fwatch.tataplay.com%2F&tfcd=0&npa=0&sz=640x480&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=", "adType": "PRE" },
         { "contentID": "x3", "position": 3 },
         { "contentID": "x4", "position": 4, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpostonly&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&correlator=", "adType": "POST" },
         { "contentID": "x5", "position": 5 },
