@@ -3,8 +3,7 @@
     "message": "Success",
     "data": [
         { "contentID": "x1", "position": 1 },
-        { "contentID": "x2", "position": 2, "ad": "https://pubads.g.doubleclick.net/gampad/live/ads?iu=/21776832524/tata_ad_unit&description_url=[placeholder]&tfcd=0&npa=0&sz=1x1%7C1x1%7C480x320%7C480x320%7C1920x1080%7C1920x1080&cust_params=syndication_partner%3Dtata&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=
-", "adType": "PRE" },
+        { "contentID": "x2", "position": 2, "ad": "https://pubads.g.doubleclick.net/gampad/live/ads?iu=/21776832524/tata_ad_unit&description_url=[placeholder]&tfcd=0&npa=0&sz=1x1%7C1x1%7C480x320%7C480x320%7C1920x1080%7C1920x1080&cust_params=syndication_partner%3Dtata&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=", "adType": "PRE" },
         { "contentID": "x3", "position": 3 },
         { "contentID": "x4", "position": 4, "ad": " https://pubads.g.doubleclick.net/gampad/live/ads?iu=/21776832524/tata_vertical_ad_unit&description_url=[placeholder]&tfcd=0&npa=0&sz=1x1%7C1x1%7C300x400%7C300x400%7C320x480%7C320x480%7C480x640%7C480x640%7C1080x1920%7C1080x1920&cust_params=syndication_partner%3Dtata&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=", "adType": "POST" },
         { "contentID": "x5", "position": 5 },
