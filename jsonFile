@@ -1,28 +1,51 @@
 {
-    "code": 0,
-    "message": "Success",
-    "data": [
-        { "contentID": "x1", "position": 1 },
-        { "contentID": "x2", "position": 2, "ad": "https://pubads.g.doubleclick.net/gampad/live/ads?iu=/21776832524/tata_ad_unit&description_url=[placeholder]&tfcd=0&npa=0&sz=1x1%7C1x1%7C480x320%7C480x320%7C1920x1080%7C1920x1080&cust_params=syndication_partner%3Dtata&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=", "adType": "PRE" },
-        { "contentID": "x3", "position": 3, "ad": "https://pubads.g.doubleclick.net/gampad/live/ads?iu=/21776832524/tata_vertical_ad_unit&description_url=[placeholder]&tfcd=0&npa=0&sz=1x1%7C1x1%7C300x400%7C300x400%7C320x480%7C320x480%7C480x640%7C480x640%7C1080x1920%7C1080x1920&cust_params=syndication_partner%3Dtata&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=", "adType": "PRE" },
-        { "contentID": "x4", "position": 4, "ad": "https://pubads.g.doubleclick.net/gampad/live/ads?iu=/21776832524/tata_vertical_ad_unit&description_url=[placeholder]&tfcd=0&npa=0&sz=1x1%7C1x1%7C300x400%7C300x400%7C320x480%7C320x480%7C480x640%7C480x640%7C1080x1920%7C1080x1920&cust_params=syndication_partner%3Dtata&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=", "adType": "PRE" },
-        { "contentID": "x5", "position": 5 },
-        { "contentID": "x6", "position": 6, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&correlator=", "adType": "PRE" },
-        { "contentID": "x7", "position": 7 },
-        { "contentID": "x8", "position": 8, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpostonly&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&correlator=", "adType": "POST" },
-        { "contentID": "x9", "position": 9 },
-        { "contentID": "x10", "position": 10, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&correlator=", "adType": "PRE" },
-        { "contentID": "x11", "position": 11 },
-        { "contentID": "x12", "position": 12, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpostonly&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&correlator=", "adType": "POST" },
-        { "contentID": "x13", "position": 13 },
-        { "contentID": "x14", "position": 14, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&correlator=", "adType": "PRE" },
-        { "contentID": "x15", "position": 15 },
-        { "contentID": "x16", "position": 16, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpostonly&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&correlator=", "adType": "POST" },
-        { "contentID": "x17", "position": 17 },
-        { "contentID": "x18", "position": 18, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&correlator=", "adType": "PRE" },
-        { "contentID": "x19", "position": 19 },
-        { "contentID": "x20", "position": 20, "ad": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpostonly&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&correlator=", "adType": "POST" }
+  "code": 0,
+  "message": "Success",
+  "data": {
+    "provider": "STAGE",
+    "ads": [
+      {
+        "type": "VAST",
+        "source": {
+          "url": "https://pubads.g.doubleclick.net/..."
+        },
+        "advIndex": {
+          "start": 1,
+          "skip": 5
+        },
+        "policy": "PRE",
+        "addRuleSupport": true
+      },
+      {
+        "type": "VAST",
+        "source": {
+          "url": "https://pubads.g.doubleclick.net/..."
+        },
+        "advIndex": {
+          "start": 1,
+          "skip": 5
+        },
+        "policy": "MID",
+        "midRoleFrequency": [
+          10,
+          25,
+          65
+        ],
+        "addRuleSupport": true
+      },
+      {
+        "type": "VAST",
+        "source": {
+          "url": "https://pubads.g.doubleclick.net/..."
+        },
+        "advIndex": {
+          "start": 1,
+          "skip": 3
+        },
+        "policy": "POST",
+        "addRuleSupport": false
+      }
     ]
+  }
 }
-
 
